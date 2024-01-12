@@ -69,10 +69,11 @@ main {
 a {
     color: #000000;
     text-decoration: none;
+    transition: all 0.3s;
 }
 
 a:hover {
-    color: #323232;
+    color: #979797;
 }
 
 h1 {
