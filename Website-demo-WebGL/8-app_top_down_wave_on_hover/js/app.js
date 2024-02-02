@@ -241,7 +241,7 @@ export default class Sketch{
     }
 
     addObjects(){
-        this.geometry = new THREE.PlaneBufferGeometry( 200,400, 10,10 );
+        this.geometry = new THREE.PlaneGeometry( 200,400, 10,10 );
         // this.geometry = new THREE.SphereBufferGeometry( 0.4, 40,40 );
         this.material = new THREE.MeshNormalMaterial();
 
